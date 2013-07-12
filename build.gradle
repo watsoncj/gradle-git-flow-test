@@ -5,7 +5,11 @@ buildscript {
 }
 
 apply plugin: 'git-flow'
+apply plugin: 'java'
 
+dependencies {
+  compile 'com.ecovate.com:cc-services:4.10'
+}
 task wrapper(type: Wrapper) {
   distributionUrl = 'https://artifactory.ecovate.com/artifactory/plugins-public/readytalk-gradlew/0.3.0/readytalk-gradlew-0.3.0-bin.zip'
 }
