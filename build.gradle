@@ -1,0 +1,11 @@
+buildscript {
+  dependencies {
+    classpath 'gradle-plugins:git-flow:0.4.0-SNAPSHOT'
+  }
+}
+
+apply plugin: 'git-flow'
+
+task wrapper(type: Wrapper) {
+  distributionUrl = 'https://artifactory.ecovate.com/artifactory/plugins-public/readytalk-gradlew/0.3.0/readytalk-gradlew-0.3.0-bin.zip'
+}
