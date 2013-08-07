@@ -1,6 +1,6 @@
 buildscript {
   dependencies {
-    classpath 'gradle-plugins:git-flow:0.4.0-SNAPSHOT'
+    classpath 'gradle-plugins:git-flow:0.4.2-SNAPSHOT'
   }
 }
 
